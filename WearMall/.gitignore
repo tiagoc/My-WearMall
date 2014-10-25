@@ -1,6 +1,28 @@
-.gradle
-/local.properties
-/.idea/workspace.xml
-/.idea/libraries
+# Ant
+bin
+gen
+build.xml
+ant.properties
+local.properties
+
+# OSX Noise
 .DS_Store
-/build
+tmp
+
+# IntelliJ idea
+out
+.idea
+*.iml
+*.ipr
+*.iws
+classes
+
+# Gradle
+build
+.gradle
+
+# Maven
+target
+release.properties
+pom.xml.*
+
