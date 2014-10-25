@@ -73,9 +73,10 @@ public class MainActivity extends Activity implements GoogleApiClient.Connection
             PutDataMapRequest putDataMapRequest = PutDataMapRequest.create(Constants.PATH_NOTIFICATION);
 
             // Add data to the request
-            putDataMapRequest.getDataMap().putString(Constants.KEY_TITLE, String.format("hello world! %d", count++));
+            //putDataMapRequest.getDataMap().putString(Constants.KEY_TITLE, String.format("hello world! %d", count++));
 
-            Bitmap icon = BitmapFactory.decodeResource(getResources(), R.drawable.ic_launcher);
+            //Bitmap icon = BitmapFactory.decodeResource(getResources(), R.drawable.ic_launcher);
+            Bitmap icon = BitmapFactory.decodeResource(getResources(), R.drawable.qr);
             Asset asset = createAssetFromBitmap(icon);
             putDataMapRequest.getDataMap().putAsset(Constants.KEY_IMAGE, asset);
 
